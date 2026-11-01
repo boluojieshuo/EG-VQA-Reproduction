@@ -75,7 +75,7 @@ Additional checks in the public repository:
 
 | Check | Result |
 |---|---|
-| Windows drive paths / POSIX local paths (`D:\`, `/d/`, `/home/`, etc.) | none |
+| Windows drive-letter paths / POSIX local paths | none |
 | API keys, tokens, private keys, password assignments | none |
 | Personal names, university, phone numbers, personal email | none |
 | Email strings | only the neutral commit identity `noreply@example.com` in audit docs |
