@@ -1,0 +1,42 @@
+{
+  "note": "Different sample set from the ablation reference; no paired statistics.",
+  "rows": [
+    {
+      "config": "expanded_C32",
+      "frames": 32,
+      "frame_selection": "uniform",
+      "prompt_variant": "official",
+      "num_questions": 300,
+      "eg_f1_0.3_0.5": 0.051,
+      "eg_f1_0.3_0.75": 0.0116,
+      "eg_f1_0.5_0.75": 0.0058,
+      "iou_f1_0.1": 0.1668,
+      "iou_f1_0.3": 0.0573,
+      "iou_f1_0.5": 0.021,
+      "iou_f1_0.7": 0.0019,
+      "start_mae_sec": 6.128,
+      "end_mae_sec": 20.223,
+      "matched_pairs": 170,
+      "first30_fraction": 0.3933,
+      "no_overlap_rate": 0.5536,
+      "mean_best_iou": 0.0814,
+      "invalid_rate": 0.0011,
+      "empty_rate": 0.0,
+      "oob_rate": 0.0431,
+      "mean_seconds": 16.867,
+      "gpu_peak_gib": 3.96,
+      "with_evidence": 300,
+      "with_answer": 178,
+      "eg_causal": 0.061,
+      "eg_counterfactual": 0.072,
+      "eg_descriptive": 0.038,
+      "eg_temporal": 0.034,
+      "pair_status": "different_sample_set",
+      "paired_vs_reference_n": 50,
+      "mean_delta": null,
+      "improved": null,
+      "worsened": null,
+      "wilcoxon_p": null
+    }
+  ]
+}

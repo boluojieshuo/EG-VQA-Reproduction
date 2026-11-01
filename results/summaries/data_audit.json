@@ -1,0 +1,313 @@
+{
+  "train": {
+    "file": "official_repo\\data\\train.json",
+    "sha256": "f4992b0d3e239dd3e809b2feecb7bef41f1507153a358c40e9e271ae010622e6",
+    "videos": 1731,
+    "unique_videos": 1731,
+    "questions": 8949,
+    "questions_by_type": {
+      "causal": 1994,
+      "counterfactual": 2547,
+      "descriptive": 2196,
+      "temporal": 2212
+    },
+    "videos_by_source": {
+      "ActivityNet Captions": 1277,
+      "HiREST": 286,
+      "YouCook2": 168
+    },
+    "evidence_spans": 20009,
+    "evidence_per_question": {
+      "min": 1,
+      "max": 8,
+      "mean": 2.236,
+      "histogram": {
+        "1": 1357,
+        "2": 5143,
+        "3": 1812,
+        "4": 393,
+        "5": 153,
+        "6": 54,
+        "7": 27,
+        "8": 10
+      }
+    },
+    "evidence_span_seconds": {
+      "min": 0.0,
+      "max": 408.8,
+      "mean": 35.84
+    },
+    "duration_seconds": {
+      "min": 30.09,
+      "max": 917
+    },
+    "duplicate_video_ids": [],
+    "duplicate_question_ids": [],
+    "duplicate_question_texts": 221,
+    "videos_available_locally": 0,
+    "videos_missing_locally": 1731,
+    "issues_total": 19,
+    "issues_by_kind": {
+      "end_beyond_duration": 7,
+      "start_not_before_end": 12
+    },
+    "issues_sample": [
+      {
+        "kind": "start_not_before_end",
+        "question_id": "7abfBD3aRps_q02",
+        "e_index": 1,
+        "timestamp": [
+          124.0,
+          124.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "4T4P8tLp16I_q01",
+        "e_index": 5,
+        "timestamp": [
+          232.0,
+          232.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "4T4P8tLp16I_q02",
+        "e_index": 1,
+        "timestamp": [
+          232.0,
+          232.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "4T4P8tLp16I_q05",
+        "e_index": 2,
+        "timestamp": [
+          232.0,
+          232.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "4T4P8tLp16I_q08",
+        "e_index": 0,
+        "timestamp": [
+          232.0,
+          232.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "PakSNcn_vWA_q01",
+        "e_index": 4,
+        "timestamp": [
+          244.0,
+          244.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "PakSNcn_vWA_q03",
+        "e_index": 4,
+        "timestamp": [
+          244.0,
+          244.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "PakSNcn_vWA_q07",
+        "e_index": 0,
+        "timestamp": [
+          244.0,
+          244.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "eprhB8h3MA4_q01",
+        "e_index": 1,
+        "timestamp": [
+          166.0,
+          166.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "eprhB8h3MA4_q04",
+        "e_index": 6,
+        "timestamp": [
+          166.0,
+          166.0
+        ]
+      },
+      {
+        "kind": "end_beyond_duration",
+        "question_id": "v_M_E1i4S8Vp0_q01",
+        "e_index": 1,
+        "timestamp": [
+          10.64,
+          101.36
+        ],
+        "duration": 101.35
+      },
+      {
+        "kind": "end_beyond_duration",
+        "question_id": "v_M_E1i4S8Vp0_q02",
+        "e_index": 1,
+        "timestamp": [
+          10.64,
+          101.36
+        ],
+        "duration": 101.35
+      },
+      {
+        "kind": "end_beyond_duration",
+        "question_id": "v_M_E1i4S8Vp0_q03",
+        "e_index": 0,
+        "timestamp": [
+          10.64,
+          101.36
+        ],
+        "duration": 101.35
+      },
+      {
+        "kind": "end_beyond_duration",
+        "question_id": "v_EGLJPCJnG64_q02",
+        "e_index": 3,
+        "timestamp": [
+          29.61,
+          89.72
+        ],
+        "duration": 89.71000000000001
+      },
+      {
+        "kind": "end_beyond_duration",
+        "question_id": "v_EGLJPCJnG64_q03",
+        "e_index": 1,
+        "timestamp": [
+          29.61,
+          89.72
+        ],
+        "duration": 89.71000000000001
+      },
+      {
+        "kind": "end_beyond_duration",
+        "question_id": "v_EGLJPCJnG64_q04",
+        "e_index": 2,
+        "timestamp": [
+          29.61,
+          89.72
+        ],
+        "duration": 89.71000000000001
+      },
+      {
+        "kind": "end_beyond_duration",
+        "question_id": "v_EGLJPCJnG64_q05",
+        "e_index": 1,
+        "timestamp": [
+          29.61,
+          89.72
+        ],
+        "duration": 89.71000000000001
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "5cqT2pA4ud8_q01",
+        "e_index": 2,
+        "timestamp": [
+          123.0,
+          123.0
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "5cqT2pA4ud8_q02",
+        "e_index": 1,
+        "timestamp": [
+          123.0,
+          123.0
+        ]
+      }
+    ]
+  },
+  "test": {
+    "file": "official_repo\\data\\test.json",
+    "sha256": "673560f4a3076321f9da8a2b57422fd04cf3645e0bd5aa0a6d8b92427a740f8b",
+    "videos": 336,
+    "unique_videos": 336,
+    "questions": 2889,
+    "questions_by_type": {
+      "causal": 748,
+      "counterfactual": 733,
+      "descriptive": 657,
+      "temporal": 751
+    },
+    "videos_by_source": {
+      "ActivityNet Captions": 223,
+      "HiREST": 72,
+      "YouCook2": 41
+    },
+    "evidence_spans": 6839,
+    "evidence_per_question": {
+      "min": 1,
+      "max": 8,
+      "mean": 2.367,
+      "histogram": {
+        "1": 399,
+        "2": 1578,
+        "3": 576,
+        "4": 206,
+        "5": 75,
+        "6": 36,
+        "7": 11,
+        "8": 8
+      }
+    },
+    "evidence_span_seconds": {
+      "min": 0.0,
+      "max": 196.0,
+      "mean": 30.12
+    },
+    "duration_seconds": {
+      "min": 30.16,
+      "max": 616.3
+    },
+    "duplicate_video_ids": [],
+    "duplicate_question_ids": [],
+    "duplicate_question_texts": 67,
+    "videos_available_locally": 0,
+    "videos_missing_locally": 336,
+    "issues_total": 2,
+    "issues_by_kind": {
+      "start_not_before_end": 2
+    },
+    "issues_sample": [
+      {
+        "kind": "start_not_before_end",
+        "question_id": "9pybtCnEqEQ_q01",
+        "e_index": 1,
+        "timestamp": [
+          125,
+          125
+        ]
+      },
+      {
+        "kind": "start_not_before_end",
+        "question_id": "9pybtCnEqEQ_q09",
+        "e_index": 1,
+        "timestamp": [
+          125,
+          125
+        ]
+      }
+    ]
+  },
+  "cross_split": {
+    "train_videos": 1731,
+    "test_videos": 336,
+    "video_id_overlap": 0,
+    "overlap_examples": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tokenizer": "<model-dir>/Qwen2.5-VL-3B-Instruct",
+  "cap": 256,
+  "runs": {
+    "C_uniform_32": {
+      "num_samples": 92,
+      "cap": 256,
+      "mean_output_tokens": 105.4,
+      "median_output_tokens": 104.0,
+      "max_output_tokens": 256,
+      "outputs_at_or_near_cap": 7,
+      "truncation_points": {
+        "complete": 35,
+        "cut_in_answer": 10,
+        "cut_in_think": 41,
+        "cut_in_evidence": 6
+      },
+      "complete_rate": 0.3804,
+      "token_stats_by_truncation_point": {
+        "complete": {
+          "count": 35,
+          "mean_tokens": 134.2,
+          "median_tokens": 138
+        },
+        "cut_in_answer": {
+          "count": 10,
+          "mean_tokens": 158.1,
+          "median_tokens": 174.0
+        },
+        "cut_in_evidence": {
+          "count": 6,
+          "mean_tokens": 256,
+          "median_tokens": 256.0
+        },
+        "cut_in_think": {
+          "count": 41,
+          "mean_tokens": 45.9,
+          "median_tokens": 33
+        }
+      }
+    }
+  }
+}

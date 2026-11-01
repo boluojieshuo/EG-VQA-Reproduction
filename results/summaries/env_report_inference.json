@@ -1,0 +1,62 @@
+{
+  "python": {
+    "version": "3.10.6",
+    "executable": "<python-executable>",
+    "implementation": "CPython",
+    "conda_prefix": null
+  },
+  "os": {
+    "system": "Windows",
+    "release": "10",
+    "version": "10.0.26200",
+    "machine": "AMD64"
+  },
+  "cpu_count": 32,
+  "torch": {
+    "installed": true,
+    "version": "2.4.1+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "device_count": 1,
+    "devices": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "total_memory_gb": 8.0,
+        "capability": "8.9"
+      }
+    ]
+  },
+  "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB, 560.94",
+  "packages": {
+    "torch": "2.4.1+cu124",
+    "torchvision": "0.19.1+cu124",
+    "transformers": "4.51.3",
+    "accelerate": "1.15.0",
+    "vllm": null,
+    "qwen_vl_utils": "unknown",
+    "sentence_transformers": "5.7.0",
+    "datasets": null,
+    "pyarrow": "25.0.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "cv2": "5.0.0",
+    "PIL": "12.3.0",
+    "pytest": "9.2.0",
+    "openai": "3.41.0",
+    "ray": null,
+    "omegaconf": null
+  },
+  "official_repo_commit": "0ca6b53c8d3aa998eaf24f903b0f6cb6b8ab88f5",
+  "disk": {
+    "<disk-1>": {
+      "total_gb": 400.0,
+      "free_gb": 23.9
+    },
+    "<disk-2>": {
+      "total_gb": 551.6,
+      "free_gb": 45.3
+    }
+  }
+}

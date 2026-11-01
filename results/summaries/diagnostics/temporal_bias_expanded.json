@@ -1,0 +1,1523 @@
+{
+  "num_questions": 300,
+  "num_questions_with_predictions": 300,
+  "predicted_span_start_seconds": {
+    "n": 904,
+    "mean": 40.88,
+    "median": 16.0,
+    "p25": 5.0,
+    "p75": 47.0
+  },
+  "ground_truth_span_start_seconds": {
+    "n": 698,
+    "mean": 85.31,
+    "median": 73.0,
+    "p25": 32.73,
+    "p75": 121.97
+  },
+  "questions_whose_predictions_all_start_within_30s": 118,
+  "questions_with_at_least_one_prediction_within_30s": 189,
+  "fraction_all_within_30s": 0.3933,
+  "per_question": [
+    {
+      "question_id": "QWowpe84rXw_q01",
+      "pred_start_median": 2.5,
+      "gt_start_median": 125.5
+    },
+    {
+      "question_id": "QWowpe84rXw_q04",
+      "pred_start_median": 2.5,
+      "gt_start_median": 76.0
+    },
+    {
+      "question_id": "QWowpe84rXw_q07",
+      "pred_start_median": 77.0,
+      "gt_start_median": 125.5
+    },
+    {
+      "question_id": "QWowpe84rXw_q09",
+      "pred_start_median": 37.0,
+      "gt_start_median": 36.5
+    },
+    {
+      "question_id": "qw-PCrDCl3E_q01",
+      "pred_start_median": 68.0,
+      "gt_start_median": 76.0
+    },
+    {
+      "question_id": "qw-PCrDCl3E_q04",
+      "pred_start_median": 102.0,
+      "gt_start_median": 66.0
+    },
+    {
+      "question_id": "qw-PCrDCl3E_q06",
+      "pred_start_median": 79.0,
+      "gt_start_median": 71.0
+    },
+    {
+      "question_id": "qw-PCrDCl3E_q07",
+      "pred_start_median": 97.0,
+      "gt_start_median": 96.0
+    },
+    {
+      "question_id": "qw-PCrDCl3E_q08",
+      "pred_start_median": 97.0,
+      "gt_start_median": 102.5
+    },
+    {
+      "question_id": "s7VHGt2-dAo_q02",
+      "pred_start_median": 137.0,
+      "gt_start_median": 138.0
+    },
+    {
+      "question_id": "s7VHGt2-dAo_q04",
+      "pred_start_median": 77.0,
+      "gt_start_median": 124.0
+    },
+    {
+      "question_id": "s7VHGt2-dAo_q05",
+      "pred_start_median": 106.0,
+      "gt_start_median": 124.0
+    },
+    {
+      "question_id": "vLcBGs389k4_q02",
+      "pred_start_median": 130.5,
+      "gt_start_median": 223.5
+    },
+    {
+      "question_id": "vLcBGs389k4_q03",
+      "pred_start_median": 39.5,
+      "gt_start_median": 109.0
+    },
+    {
+      "question_id": "vLcBGs389k4_q04",
+      "pred_start_median": 130.5,
+      "gt_start_median": 234.5
+    },
+    {
+      "question_id": "vLcBGs389k4_q05",
+      "pred_start_median": 47.0,
+      "gt_start_median": 163.0
+    },
+    {
+      "question_id": "vLcBGs389k4_q06",
+      "pred_start_median": 128.0,
+      "gt_start_median": 223.5
+    },
+    {
+      "question_id": "vLcBGs389k4_q08",
+      "pred_start_median": 37.0,
+      "gt_start_median": 163.0
+    },
+    {
+      "question_id": "v_s2VpBgSWIPg_q01",
+      "pred_start_median": 10.0,
+      "gt_start_median": 153.48
+    },
+    {
+      "question_id": "v_s2VpBgSWIPg_q03",
+      "pred_start_median": 12.5,
+      "gt_start_median": 88.44
+    },
+    {
+      "question_id": "v_s2VpBgSWIPg_q04",
+      "pred_start_median": 8.0,
+      "gt_start_median": 188.05
+    },
+    {
+      "question_id": "v_s2VpBgSWIPg_q05",
+      "pred_start_median": 0.0,
+      "gt_start_median": 88.44
+    },
+    {
+      "question_id": "v_s2VpBgSWIPg_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 131.63
+    },
+    {
+      "question_id": "witTaqZOvrQ_q01",
+      "pred_start_median": 9.5,
+      "gt_start_median": 83.0
+    },
+    {
+      "question_id": "witTaqZOvrQ_q02",
+      "pred_start_median": 12.0,
+      "gt_start_median": 78.0
+    },
+    {
+      "question_id": "witTaqZOvrQ_q03",
+      "pred_start_median": 12.0,
+      "gt_start_median": 145.5
+    },
+    {
+      "question_id": "witTaqZOvrQ_q06",
+      "pred_start_median": 12.0,
+      "gt_start_median": 106.5
+    },
+    {
+      "question_id": "witTaqZOvrQ_q07",
+      "pred_start_median": 7.5,
+      "gt_start_median": 145.5
+    },
+    {
+      "question_id": "v_iL5abexk3vQ_q02",
+      "pred_start_median": 10.0,
+      "gt_start_median": 34.6
+    },
+    {
+      "question_id": "v_iL5abexk3vQ_q03",
+      "pred_start_median": 5.0,
+      "gt_start_median": 50.39
+    },
+    {
+      "question_id": "v_iL5abexk3vQ_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 50.39
+    },
+    {
+      "question_id": "v_iL5abexk3vQ_q08",
+      "pred_start_median": 7.5,
+      "gt_start_median": 17.3
+    },
+    {
+      "question_id": "v_iL5abexk3vQ_q10",
+      "pred_start_median": 7.5,
+      "gt_start_median": 17.3
+    },
+    {
+      "question_id": "v_iL5abexk3vQ_q11",
+      "pred_start_median": 7.5,
+      "gt_start_median": 50.39
+    },
+    {
+      "question_id": "v_iL5abexk3vQ_q12",
+      "pred_start_median": 7.5,
+      "gt_start_median": 34.6
+    },
+    {
+      "question_id": "tQ6-_e59Zrk_q02",
+      "pred_start_median": 19.5,
+      "gt_start_median": 48.0
+    },
+    {
+      "question_id": "tQ6-_e59Zrk_q04",
+      "pred_start_median": 7.5,
+      "gt_start_median": 91.0
+    },
+    {
+      "question_id": "tQ6-_e59Zrk_q06",
+      "pred_start_median": 37.0,
+      "gt_start_median": 144.0
+    },
+    {
+      "question_id": "tQ6-_e59Zrk_q07",
+      "pred_start_median": 69.0,
+      "gt_start_median": 169.0
+    },
+    {
+      "question_id": "v_-U4lNtzVQ8s_q04",
+      "pred_start_median": 2.5,
+      "gt_start_median": 12.48
+    },
+    {
+      "question_id": "v_-U4lNtzVQ8s_q05",
+      "pred_start_median": 2.5,
+      "gt_start_median": 11.59
+    },
+    {
+      "question_id": "v_-U4lNtzVQ8s_q07",
+      "pred_start_median": 2.5,
+      "gt_start_median": 18.28
+    },
+    {
+      "question_id": "v_iHm8ZXs2XdY_q03",
+      "pred_start_median": 0.0,
+      "gt_start_median": 92.35
+    },
+    {
+      "question_id": "v_iHm8ZXs2XdY_q04",
+      "pred_start_median": 138.0,
+      "gt_start_median": 192.5
+    },
+    {
+      "question_id": "v_iHm8ZXs2XdY_q07",
+      "pred_start_median": 8.5,
+      "gt_start_median": 65.65
+    },
+    {
+      "question_id": "v_iHm8ZXs2XdY_q09",
+      "pred_start_median": 0.0,
+      "gt_start_median": 38.94
+    },
+    {
+      "question_id": "v_4SecbKo1iGE_q01",
+      "pred_start_median": 31.0,
+      "gt_start_median": 31.61
+    },
+    {
+      "question_id": "v_4SecbKo1iGE_q03",
+      "pred_start_median": 2.5,
+      "gt_start_median": 43.88
+    },
+    {
+      "question_id": "v_4SecbKo1iGE_q04",
+      "pred_start_median": 31.0,
+      "gt_start_median": 66.94
+    },
+    {
+      "question_id": "v_4SecbKo1iGE_q07",
+      "pred_start_median": 97.0,
+      "gt_start_median": 105.98
+    },
+    {
+      "question_id": "v_4SecbKo1iGE_q08",
+      "pred_start_median": 7.5,
+      "gt_start_median": 70.66
+    },
+    {
+      "question_id": "v_oSDHYvvYo5M_q02",
+      "pred_start_median": 22.5,
+      "gt_start_median": 17.45
+    },
+    {
+      "question_id": "v_oSDHYvvYo5M_q06",
+      "pred_start_median": 0.0,
+      "gt_start_median": 22.66
+    },
+    {
+      "question_id": "v_i1PpX1IOcIs_q01",
+      "pred_start_median": 7.5,
+      "gt_start_median": 0.0
+    },
+    {
+      "question_id": "v_i1PpX1IOcIs_q02",
+      "pred_start_median": 2.5,
+      "gt_start_median": 107.65
+    },
+    {
+      "question_id": "v_i1PpX1IOcIs_q03",
+      "pred_start_median": 5.0,
+      "gt_start_median": 57.51
+    },
+    {
+      "question_id": "v_i1PpX1IOcIs_q05",
+      "pred_start_median": 2.5,
+      "gt_start_median": 97.53
+    },
+    {
+      "question_id": "v_173d8EtsIpE_q02",
+      "pred_start_median": 2.5,
+      "gt_start_median": 39.77
+    },
+    {
+      "question_id": "v_173d8EtsIpE_q03",
+      "pred_start_median": 10.0,
+      "gt_start_median": 33.69
+    },
+    {
+      "question_id": "v_173d8EtsIpE_q04",
+      "pred_start_median": 120.0,
+      "gt_start_median": 50.53
+    },
+    {
+      "question_id": "v_173d8EtsIpE_q06",
+      "pred_start_median": 2.5,
+      "gt_start_median": 50.53
+    },
+    {
+      "question_id": "v_EDkYPikPWW8_q02",
+      "pred_start_median": 5.0,
+      "gt_start_median": 22.07
+    },
+    {
+      "question_id": "v_EDkYPikPWW8_q03",
+      "pred_start_median": 5.0,
+      "gt_start_median": 7.97
+    },
+    {
+      "question_id": "v_EDkYPikPWW8_q04",
+      "pred_start_median": 2.5,
+      "gt_start_median": 7.97
+    },
+    {
+      "question_id": "v_xftFhOCEqFs_q03",
+      "pred_start_median": 7.5,
+      "gt_start_median": 75.06
+    },
+    {
+      "question_id": "v_xftFhOCEqFs_q04",
+      "pred_start_median": 2.5,
+      "gt_start_median": 53.38
+    },
+    {
+      "question_id": "v_xftFhOCEqFs_q06",
+      "pred_start_median": 2.5,
+      "gt_start_median": 75.06
+    },
+    {
+      "question_id": "v_u-yFENQQxAo_q01",
+      "pred_start_median": 19.5,
+      "gt_start_median": 3.54
+    },
+    {
+      "question_id": "v_u-yFENQQxAo_q02",
+      "pred_start_median": 40.5,
+      "gt_start_median": 23.07
+    },
+    {
+      "question_id": "v_u-yFENQQxAo_q03",
+      "pred_start_median": 16.5,
+      "gt_start_median": 7.09
+    },
+    {
+      "question_id": "v_u-yFENQQxAo_q04",
+      "pred_start_median": 22.0,
+      "gt_start_median": 11.54
+    },
+    {
+      "question_id": "v_u-yFENQQxAo_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 11.54
+    },
+    {
+      "question_id": "v_u-yFENQQxAo_q07",
+      "pred_start_median": 13.0,
+      "gt_start_median": 3.54
+    },
+    {
+      "question_id": "v_Xu54UPG1cME_q02",
+      "pred_start_median": 67.0,
+      "gt_start_median": 84.1
+    },
+    {
+      "question_id": "v_Xu54UPG1cME_q03",
+      "pred_start_median": 7.5,
+      "gt_start_median": 40.87
+    },
+    {
+      "question_id": "v_Xu54UPG1cME_q04",
+      "pred_start_median": 5.0,
+      "gt_start_median": 14.26
+    },
+    {
+      "question_id": "v_Xu54UPG1cME_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 31.36
+    },
+    {
+      "question_id": "v_pk7LcugO3zg_q02",
+      "pred_start_median": 0.0,
+      "gt_start_median": 0.0
+    },
+    {
+      "question_id": "v_pk7LcugO3zg_q07",
+      "pred_start_median": 5.0,
+      "gt_start_median": 130.06
+    },
+    {
+      "question_id": "WlkaUxBwURQ_q01",
+      "pred_start_median": 89.0,
+      "gt_start_median": 142.5
+    },
+    {
+      "question_id": "WlkaUxBwURQ_q02",
+      "pred_start_median": 28.0,
+      "gt_start_median": 102.0
+    },
+    {
+      "question_id": "WlkaUxBwURQ_q03",
+      "pred_start_median": 37.0,
+      "gt_start_median": 91.5
+    },
+    {
+      "question_id": "WlkaUxBwURQ_q07",
+      "pred_start_median": 62.5,
+      "gt_start_median": 113.5
+    },
+    {
+      "question_id": "WlkaUxBwURQ_q08",
+      "pred_start_median": 37.0,
+      "gt_start_median": 118.5
+    },
+    {
+      "question_id": "WlkaUxBwURQ_q09",
+      "pred_start_median": 77.0,
+      "gt_start_median": 118.5
+    },
+    {
+      "question_id": "WlkaUxBwURQ_q12",
+      "pred_start_median": 68.0,
+      "gt_start_median": 113.5
+    },
+    {
+      "question_id": "Bd6fLOiO9Xw_q01",
+      "pred_start_median": 7.5,
+      "gt_start_median": 63.0
+    },
+    {
+      "question_id": "Bd6fLOiO9Xw_q02",
+      "pred_start_median": 7.5,
+      "gt_start_median": 66.0
+    },
+    {
+      "question_id": "Bd6fLOiO9Xw_q05",
+      "pred_start_median": 0.0,
+      "gt_start_median": 66.0
+    },
+    {
+      "question_id": "Bd6fLOiO9Xw_q08",
+      "pred_start_median": 7.5,
+      "gt_start_median": 73.0
+    },
+    {
+      "question_id": "Bd6fLOiO9Xw_q10",
+      "pred_start_median": 7.5,
+      "gt_start_median": 56.0
+    },
+    {
+      "question_id": "v_6EWzgWd72Cs_q02",
+      "pred_start_median": 79.5,
+      "gt_start_median": 48.78
+    },
+    {
+      "question_id": "v_6EWzgWd72Cs_q03",
+      "pred_start_median": 37.0,
+      "gt_start_median": 29.75
+    },
+    {
+      "question_id": "v_6EWzgWd72Cs_q04",
+      "pred_start_median": 79.5,
+      "gt_start_median": 48.78
+    },
+    {
+      "question_id": "v_6EWzgWd72Cs_q05",
+      "pred_start_median": 38.0,
+      "gt_start_median": 29.75
+    },
+    {
+      "question_id": "v_6EWzgWd72Cs_q08",
+      "pred_start_median": 27.0,
+      "gt_start_median": 70.79
+    },
+    {
+      "question_id": "v_dBNZf90PLJ0_q02",
+      "pred_start_median": 25.0,
+      "gt_start_median": 86.39
+    },
+    {
+      "question_id": "v_dBNZf90PLJ0_q03",
+      "pred_start_median": 29.5,
+      "gt_start_median": 37.33
+    },
+    {
+      "question_id": "v_MzNI-qdQfQc_q04",
+      "pred_start_median": 7.5,
+      "gt_start_median": 16.59
+    },
+    {
+      "question_id": "v_MzNI-qdQfQc_q05",
+      "pred_start_median": 8.0,
+      "gt_start_median": 31.04
+    },
+    {
+      "question_id": "v_MzNI-qdQfQc_q06",
+      "pred_start_median": 107.0,
+      "gt_start_median": 31.04
+    },
+    {
+      "question_id": "v_MzNI-qdQfQc_q07",
+      "pred_start_median": 7.5,
+      "gt_start_median": 49.5
+    },
+    {
+      "question_id": "v_MzNI-qdQfQc_q08",
+      "pred_start_median": 7.5,
+      "gt_start_median": 31.04
+    },
+    {
+      "question_id": "v_MzNI-qdQfQc_q09",
+      "pred_start_median": 7.5,
+      "gt_start_median": 49.5
+    },
+    {
+      "question_id": "v_yjazHd6a5SQ_q01",
+      "pred_start_median": 32.0,
+      "gt_start_median": 74.58
+    },
+    {
+      "question_id": "v_yjazHd6a5SQ_q02",
+      "pred_start_median": 22.0,
+      "gt_start_median": 55.16
+    },
+    {
+      "question_id": "v_yjazHd6a5SQ_q03",
+      "pred_start_median": 13.0,
+      "gt_start_median": 55.16
+    },
+    {
+      "question_id": "v_yjazHd6a5SQ_q04",
+      "pred_start_median": 70.0,
+      "gt_start_median": 90.12
+    },
+    {
+      "question_id": "v_yjazHd6a5SQ_q05",
+      "pred_start_median": 70.0,
+      "gt_start_median": 90.12
+    },
+    {
+      "question_id": "v_yjazHd6a5SQ_q06",
+      "pred_start_median": 80.0,
+      "gt_start_median": 66.81
+    },
+    {
+      "question_id": "v_yjazHd6a5SQ_q08",
+      "pred_start_median": 72.5,
+      "gt_start_median": 82.35
+    },
+    {
+      "question_id": "v_yjazHd6a5SQ_q09",
+      "pred_start_median": 40.0,
+      "gt_start_median": 70.7
+    },
+    {
+      "question_id": "v_SBj7yuFEwQI_q01",
+      "pred_start_median": 77.0,
+      "gt_start_median": 78.43
+    },
+    {
+      "question_id": "v_SBj7yuFEwQI_q02",
+      "pred_start_median": 7.5,
+      "gt_start_median": 0.0
+    },
+    {
+      "question_id": "v_SBj7yuFEwQI_q03",
+      "pred_start_median": 22.5,
+      "gt_start_median": 50.09
+    },
+    {
+      "question_id": "v_SBj7yuFEwQI_q04",
+      "pred_start_median": 70.5,
+      "gt_start_median": 64.26
+    },
+    {
+      "question_id": "v_SBj7yuFEwQI_q05",
+      "pred_start_median": 7.5,
+      "gt_start_median": 39.22
+    },
+    {
+      "question_id": "v_SBj7yuFEwQI_q06",
+      "pred_start_median": 69.0,
+      "gt_start_median": 64.26
+    },
+    {
+      "question_id": "v_SBj7yuFEwQI_q07",
+      "pred_start_median": 68.0,
+      "gt_start_median": 64.26
+    },
+    {
+      "question_id": "XEifm-iXMvs_q03",
+      "pred_start_median": 29.5,
+      "gt_start_median": 129.5
+    },
+    {
+      "question_id": "XEifm-iXMvs_q06",
+      "pred_start_median": 142.0,
+      "gt_start_median": 226.5
+    },
+    {
+      "question_id": "XEifm-iXMvs_q07",
+      "pred_start_median": 137.0,
+      "gt_start_median": 202.0
+    },
+    {
+      "question_id": "XEifm-iXMvs_q13",
+      "pred_start_median": 128.0,
+      "gt_start_median": 137.0
+    },
+    {
+      "question_id": "XEifm-iXMvs_q14",
+      "pred_start_median": 97.0,
+      "gt_start_median": 159.0
+    },
+    {
+      "question_id": "QZWTC3jsq8E_q01",
+      "pred_start_median": 120.0,
+      "gt_start_median": 131.0
+    },
+    {
+      "question_id": "QZWTC3jsq8E_q03",
+      "pred_start_median": 120.0,
+      "gt_start_median": 131.0
+    },
+    {
+      "question_id": "QZWTC3jsq8E_q04",
+      "pred_start_median": 18.0,
+      "gt_start_median": 88.0
+    },
+    {
+      "question_id": "QZWTC3jsq8E_q05",
+      "pred_start_median": 7.5,
+      "gt_start_median": 103.5
+    },
+    {
+      "question_id": "QZWTC3jsq8E_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 114.0
+    },
+    {
+      "question_id": "QZWTC3jsq8E_q07",
+      "pred_start_median": 10.0,
+      "gt_start_median": 110.0
+    },
+    {
+      "question_id": "QZWTC3jsq8E_q08",
+      "pred_start_median": 27.0,
+      "gt_start_median": 105.0
+    },
+    {
+      "question_id": "QZWTC3jsq8E_q09",
+      "pred_start_median": 7.5,
+      "gt_start_median": 79.0
+    },
+    {
+      "question_id": "v_woUdHiRWKMg_q04",
+      "pred_start_median": 7.5,
+      "gt_start_median": 95.73
+    },
+    {
+      "question_id": "v_woUdHiRWKMg_q05",
+      "pred_start_median": 7.5,
+      "gt_start_median": 83.09
+    },
+    {
+      "question_id": "v_woUdHiRWKMg_q06",
+      "pred_start_median": 147.0,
+      "gt_start_median": 145.41
+    },
+    {
+      "question_id": "v_woUdHiRWKMg_q07",
+      "pred_start_median": 34.0,
+      "gt_start_median": 46.97
+    },
+    {
+      "question_id": "v_woUdHiRWKMg_q08",
+      "pred_start_median": 7.5,
+      "gt_start_median": 62.77
+    },
+    {
+      "question_id": "v_woUdHiRWKMg_q09",
+      "pred_start_median": 7.5,
+      "gt_start_median": 95.73
+    },
+    {
+      "question_id": "v_bQGegLwVc8I_q02",
+      "pred_start_median": 7.5,
+      "gt_start_median": 25.1
+    },
+    {
+      "question_id": "v_bQGegLwVc8I_q03",
+      "pred_start_median": 30.5,
+      "gt_start_median": 34.28
+    },
+    {
+      "question_id": "v_bQGegLwVc8I_q04",
+      "pred_start_median": 30.5,
+      "gt_start_median": 23.81
+    },
+    {
+      "question_id": "v_bQGegLwVc8I_q05",
+      "pred_start_median": 19.5,
+      "gt_start_median": 25.1
+    },
+    {
+      "question_id": "v_bQGegLwVc8I_q06",
+      "pred_start_median": 30.5,
+      "gt_start_median": 14.77
+    },
+    {
+      "question_id": "v_bQGegLwVc8I_q08",
+      "pred_start_median": 29.5,
+      "gt_start_median": 27.97
+    },
+    {
+      "question_id": "v_kh42ufAYMZQ_q01",
+      "pred_start_median": 7.5,
+      "gt_start_median": 121.34
+    },
+    {
+      "question_id": "v_kh42ufAYMZQ_q02",
+      "pred_start_median": 147.0,
+      "gt_start_median": 121.34
+    },
+    {
+      "question_id": "v_kh42ufAYMZQ_q03",
+      "pred_start_median": 2.5,
+      "gt_start_median": 88.98
+    },
+    {
+      "question_id": "v_kh42ufAYMZQ_q05",
+      "pred_start_median": 7.5,
+      "gt_start_median": 28.31
+    },
+    {
+      "question_id": "v_kh42ufAYMZQ_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 60.67
+    },
+    {
+      "question_id": "v_kh42ufAYMZQ_q07",
+      "pred_start_median": 7.5,
+      "gt_start_median": 56.62
+    },
+    {
+      "question_id": "v_tJ2xOG_EWOg_q01",
+      "pred_start_median": 129.5,
+      "gt_start_median": 141.92
+    },
+    {
+      "question_id": "v_tJ2xOG_EWOg_q03",
+      "pred_start_median": 18.0,
+      "gt_start_median": 82.88
+    },
+    {
+      "question_id": "v_tJ2xOG_EWOg_q05",
+      "pred_start_median": 7.0,
+      "gt_start_median": 82.88
+    },
+    {
+      "question_id": "v_tJ2xOG_EWOg_q08",
+      "pred_start_median": 112.0,
+      "gt_start_median": 70.96
+    },
+    {
+      "question_id": "v_tJ2xOG_EWOg_q11",
+      "pred_start_median": 7.0,
+      "gt_start_median": 11.91
+    },
+    {
+      "question_id": "v_tJ2xOG_EWOg_q12",
+      "pred_start_median": 0.0,
+      "gt_start_median": 23.83
+    },
+    {
+      "question_id": "JAFloXFat6k_q01",
+      "pred_start_median": 37.0,
+      "gt_start_median": 36.0
+    },
+    {
+      "question_id": "JAFloXFat6k_q02",
+      "pred_start_median": 42.0,
+      "gt_start_median": 58.5
+    },
+    {
+      "question_id": "JAFloXFat6k_q05",
+      "pred_start_median": 97.0,
+      "gt_start_median": 81.0
+    },
+    {
+      "question_id": "JAFloXFat6k_q07",
+      "pred_start_median": 57.0,
+      "gt_start_median": 68.5
+    },
+    {
+      "question_id": "JAFloXFat6k_q09",
+      "pred_start_median": 52.0,
+      "gt_start_median": 56.0
+    },
+    {
+      "question_id": "N-aOUdF4A4Q_q01",
+      "pred_start_median": 37.0,
+      "gt_start_median": 53.5
+    },
+    {
+      "question_id": "N-aOUdF4A4Q_q02",
+      "pred_start_median": 7.5,
+      "gt_start_median": 50.0
+    },
+    {
+      "question_id": "N-aOUdF4A4Q_q03",
+      "pred_start_median": 70.5,
+      "gt_start_median": 53.5
+    },
+    {
+      "question_id": "N-aOUdF4A4Q_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 46.0
+    },
+    {
+      "question_id": "N-aOUdF4A4Q_q07",
+      "pred_start_median": 77.0,
+      "gt_start_median": 65.0
+    },
+    {
+      "question_id": "N-aOUdF4A4Q_q08",
+      "pred_start_median": 68.0,
+      "gt_start_median": 48.0
+    },
+    {
+      "question_id": "v_3nrianTc060_q01",
+      "pred_start_median": 8.0,
+      "gt_start_median": 0.0
+    },
+    {
+      "question_id": "v_3nrianTc060_q02",
+      "pred_start_median": 9.5,
+      "gt_start_median": 83.28
+    },
+    {
+      "question_id": "v_3nrianTc060_q03",
+      "pred_start_median": 197.0,
+      "gt_start_median": 205.96
+    },
+    {
+      "question_id": "v_3nrianTc060_q04",
+      "pred_start_median": 22.5,
+      "gt_start_median": 83.28
+    },
+    {
+      "question_id": "v_3nrianTc060_q07",
+      "pred_start_median": 177.0,
+      "gt_start_median": 27.01
+    },
+    {
+      "question_id": "v_3nrianTc060_q09",
+      "pred_start_median": 11.0,
+      "gt_start_median": 83.28
+    },
+    {
+      "question_id": "v_3nrianTc060_q11",
+      "pred_start_median": 7.5,
+      "gt_start_median": 83.28
+    },
+    {
+      "question_id": "v_fxbEiZrQQzM_q01",
+      "pred_start_median": 8.5,
+      "gt_start_median": 21.38
+    },
+    {
+      "question_id": "v_fxbEiZrQQzM_q04",
+      "pred_start_median": 7.5,
+      "gt_start_median": 21.38
+    },
+    {
+      "question_id": "v_fxbEiZrQQzM_q05",
+      "pred_start_median": 2.5,
+      "gt_start_median": 10.69
+    },
+    {
+      "question_id": "v_fxbEiZrQQzM_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 33.71
+    },
+    {
+      "question_id": "NAMZY2LbeFY_q01",
+      "pred_start_median": 127.0,
+      "gt_start_median": 179.0
+    },
+    {
+      "question_id": "NAMZY2LbeFY_q02",
+      "pred_start_median": 52.0,
+      "gt_start_median": 179.0
+    },
+    {
+      "question_id": "NAMZY2LbeFY_q03",
+      "pred_start_median": 77.0,
+      "gt_start_median": 111.0
+    },
+    {
+      "question_id": "NAMZY2LbeFY_q04",
+      "pred_start_median": 137.0,
+      "gt_start_median": 216.5
+    },
+    {
+      "question_id": "NAMZY2LbeFY_q05",
+      "pred_start_median": 97.0,
+      "gt_start_median": 113.0
+    },
+    {
+      "question_id": "NAMZY2LbeFY_q09",
+      "pred_start_median": 130.5,
+      "gt_start_median": 192.0
+    },
+    {
+      "question_id": "NAMZY2LbeFY_q10",
+      "pred_start_median": 10.0,
+      "gt_start_median": 253.0
+    },
+    {
+      "question_id": "NAMZY2LbeFY_q11",
+      "pred_start_median": 128.0,
+      "gt_start_median": 157.5
+    },
+    {
+      "question_id": "v_fxgbk_Kk4Rw_q01",
+      "pred_start_median": 5.0,
+      "gt_start_median": 51.59
+    },
+    {
+      "question_id": "v_fxgbk_Kk4Rw_q02",
+      "pred_start_median": 12.0,
+      "gt_start_median": 78.01
+    },
+    {
+      "question_id": "v_fxgbk_Kk4Rw_q03",
+      "pred_start_median": 12.0,
+      "gt_start_median": 32.72
+    },
+    {
+      "question_id": "v_fxgbk_Kk4Rw_q06",
+      "pred_start_median": 10.5,
+      "gt_start_median": 30.83
+    },
+    {
+      "question_id": "v_fxgbk_Kk4Rw_q07",
+      "pred_start_median": 7.5,
+      "gt_start_median": 50.02
+    },
+    {
+      "question_id": "v_fxgbk_Kk4Rw_q09",
+      "pred_start_median": 90.5,
+      "gt_start_median": 78.01
+    },
+    {
+      "question_id": "sh9oSNPRsnA_q01",
+      "pred_start_median": 7.5,
+      "gt_start_median": 79.5
+    },
+    {
+      "question_id": "sh9oSNPRsnA_q02",
+      "pred_start_median": 7.5,
+      "gt_start_median": 66.0
+    },
+    {
+      "question_id": "sh9oSNPRsnA_q04",
+      "pred_start_median": 7.5,
+      "gt_start_median": 87.0
+    },
+    {
+      "question_id": "sh9oSNPRsnA_q05",
+      "pred_start_median": 5.0,
+      "gt_start_median": 91.0
+    },
+    {
+      "question_id": "4L_CdjYJRvQ_q01",
+      "pred_start_median": 139.5,
+      "gt_start_median": 239.0
+    },
+    {
+      "question_id": "4L_CdjYJRvQ_q03",
+      "pred_start_median": 7.5,
+      "gt_start_median": 221.0
+    },
+    {
+      "question_id": "4L_CdjYJRvQ_q05",
+      "pred_start_median": 107.0,
+      "gt_start_median": 128.5
+    },
+    {
+      "question_id": "i9CMFh31Bs0_q02",
+      "pred_start_median": 44.0,
+      "gt_start_median": 242.0
+    },
+    {
+      "question_id": "i9CMFh31Bs0_q04",
+      "pred_start_median": 79.0,
+      "gt_start_median": 301.0
+    },
+    {
+      "question_id": "i9CMFh31Bs0_q08",
+      "pred_start_median": 128.0,
+      "gt_start_median": 459.0
+    },
+    {
+      "question_id": "i9CMFh31Bs0_q09",
+      "pred_start_median": 137.0,
+      "gt_start_median": 459.0
+    },
+    {
+      "question_id": "CC6uH9DWeTs_q01",
+      "pred_start_median": 10.0,
+      "gt_start_median": 195.0
+    },
+    {
+      "question_id": "CC6uH9DWeTs_q03",
+      "pred_start_median": 10.0,
+      "gt_start_median": 155.0
+    },
+    {
+      "question_id": "CC6uH9DWeTs_q04",
+      "pred_start_median": 58.0,
+      "gt_start_median": 240.0
+    },
+    {
+      "question_id": "CC6uH9DWeTs_q05",
+      "pred_start_median": 10.0,
+      "gt_start_median": 240.0
+    },
+    {
+      "question_id": "CC6uH9DWeTs_q08",
+      "pred_start_median": 37.0,
+      "gt_start_median": 240.0
+    },
+    {
+      "question_id": "CC6uH9DWeTs_q09",
+      "pred_start_median": 7.5,
+      "gt_start_median": 240.0
+    },
+    {
+      "question_id": "v_5Foo5NSjEXQ_q02",
+      "pred_start_median": 7.5,
+      "gt_start_median": 38.41
+    },
+    {
+      "question_id": "v_5Foo5NSjEXQ_q05",
+      "pred_start_median": 52.0,
+      "gt_start_median": 45.31
+    },
+    {
+      "question_id": "v_5Foo5NSjEXQ_q08",
+      "pred_start_median": 7.5,
+      "gt_start_median": 33.01
+    },
+    {
+      "question_id": "v_wDFpFJ1CP9g_q01",
+      "pred_start_median": 7.0,
+      "gt_start_median": 118.77
+    },
+    {
+      "question_id": "v_wDFpFJ1CP9g_q02",
+      "pred_start_median": 11.0,
+      "gt_start_median": 118.77
+    },
+    {
+      "question_id": "v_wDFpFJ1CP9g_q04",
+      "pred_start_median": 33.5,
+      "gt_start_median": 9.18
+    },
+    {
+      "question_id": "v_wDFpFJ1CP9g_q06",
+      "pred_start_median": 137.0,
+      "gt_start_median": 205.4
+    },
+    {
+      "question_id": "v_wDFpFJ1CP9g_q08",
+      "pred_start_median": 75.0,
+      "gt_start_median": 118.77
+    },
+    {
+      "question_id": "v_wDFpFJ1CP9g_q09",
+      "pred_start_median": 125.0,
+      "gt_start_median": 180.73
+    },
+    {
+      "question_id": "v_wDFpFJ1CP9g_q10",
+      "pred_start_median": 7.0,
+      "gt_start_median": 205.4
+    },
+    {
+      "question_id": "v_c-8GvZKndyQ_q04",
+      "pred_start_median": 44.0,
+      "gt_start_median": 8.26
+    },
+    {
+      "question_id": "v_c-8GvZKndyQ_q05",
+      "pred_start_median": 7.5,
+      "gt_start_median": 48.18
+    },
+    {
+      "question_id": "v_c-8GvZKndyQ_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 48.18
+    },
+    {
+      "question_id": "iuQjb1-WAzs_q02",
+      "pred_start_median": 47.0,
+      "gt_start_median": 39.0
+    },
+    {
+      "question_id": "iuQjb1-WAzs_q03",
+      "pred_start_median": 28.0,
+      "gt_start_median": 39.0
+    },
+    {
+      "question_id": "iuQjb1-WAzs_q08",
+      "pred_start_median": 90.0,
+      "gt_start_median": 79.5
+    },
+    {
+      "question_id": "iuQjb1-WAzs_q09",
+      "pred_start_median": 68.0,
+      "gt_start_median": 67.0
+    },
+    {
+      "question_id": "v_QASZ8CTxBSg_q01",
+      "pred_start_median": 10.0,
+      "gt_start_median": 17.59
+    },
+    {
+      "question_id": "v_QASZ8CTxBSg_q02",
+      "pred_start_median": 7.5,
+      "gt_start_median": 38.7
+    },
+    {
+      "question_id": "v_QASZ8CTxBSg_q04",
+      "pred_start_median": 7.5,
+      "gt_start_median": 17.59
+    },
+    {
+      "question_id": "v_QASZ8CTxBSg_q07",
+      "pred_start_median": 7.5,
+      "gt_start_median": 36.73
+    },
+    {
+      "question_id": "v_9njq_aC4AS4_q01",
+      "pred_start_median": 10.0,
+      "gt_start_median": 29.98
+    },
+    {
+      "question_id": "v_9njq_aC4AS4_q02",
+      "pred_start_median": 17.5,
+      "gt_start_median": 0.0
+    },
+    {
+      "question_id": "v_9njq_aC4AS4_q03",
+      "pred_start_median": 10.0,
+      "gt_start_median": 29.98
+    },
+    {
+      "question_id": "v_9njq_aC4AS4_q06",
+      "pred_start_median": 20.0,
+      "gt_start_median": 29.98
+    },
+    {
+      "question_id": "v_9njq_aC4AS4_q08",
+      "pred_start_median": 7.5,
+      "gt_start_median": 29.98
+    },
+    {
+      "question_id": "v_tF4Tl56ntnE_q01",
+      "pred_start_median": 87.0,
+      "gt_start_median": 68.58
+    },
+    {
+      "question_id": "v_tF4Tl56ntnE_q02",
+      "pred_start_median": 45.0,
+      "gt_start_median": 36.52
+    },
+    {
+      "question_id": "v_tF4Tl56ntnE_q03",
+      "pred_start_median": 27.0,
+      "gt_start_median": 27.84
+    },
+    {
+      "question_id": "v_tF4Tl56ntnE_q05",
+      "pred_start_median": 39.0,
+      "gt_start_median": 47.66
+    },
+    {
+      "question_id": "v_tF4Tl56ntnE_q06",
+      "pred_start_median": 27.0,
+      "gt_start_median": 27.84
+    },
+    {
+      "question_id": "v_mKm75VWThAI_q02",
+      "pred_start_median": 22.5,
+      "gt_start_median": 189.66
+    },
+    {
+      "question_id": "v_mKm75VWThAI_q04",
+      "pred_start_median": 15.0,
+      "gt_start_median": 7.44
+    },
+    {
+      "question_id": "v_mKm75VWThAI_q05",
+      "pred_start_median": 17.0,
+      "gt_start_median": 161.51
+    },
+    {
+      "question_id": "v_mKm75VWThAI_q06",
+      "pred_start_median": 69.0,
+      "gt_start_median": 168.94
+    },
+    {
+      "question_id": "v_mKm75VWThAI_q09",
+      "pred_start_median": 77.0,
+      "gt_start_median": 107.32
+    },
+    {
+      "question_id": "v_mKm75VWThAI_q10",
+      "pred_start_median": 7.0,
+      "gt_start_median": 168.94
+    },
+    {
+      "question_id": "v_iaXlCCgLBdo_q01",
+      "pred_start_median": 7.5,
+      "gt_start_median": 2.18
+    },
+    {
+      "question_id": "v_iaXlCCgLBdo_q02",
+      "pred_start_median": 7.5,
+      "gt_start_median": 16.36
+    },
+    {
+      "question_id": "v_iaXlCCgLBdo_q03",
+      "pred_start_median": 7.5,
+      "gt_start_median": 2.18
+    },
+    {
+      "question_id": "v_iaXlCCgLBdo_q04",
+      "pred_start_median": 7.0,
+      "gt_start_median": 2.18
+    },
+    {
+      "question_id": "v_iaXlCCgLBdo_q07",
+      "pred_start_median": 7.5,
+      "gt_start_median": 16.36
+    },
+    {
+      "question_id": "v_FZk40J_drws_q01",
+      "pred_start_median": 139.5,
+      "gt_start_median": 65.06
+    },
+    {
+      "question_id": "v_FZk40J_drws_q03",
+      "pred_start_median": 22.5,
+      "gt_start_median": 61.27
+    },
+    {
+      "question_id": "v_FZk40J_drws_q05",
+      "pred_start_median": 7.5,
+      "gt_start_median": 74.51
+    },
+    {
+      "question_id": "v_FZk40J_drws_q08",
+      "pred_start_median": 137.0,
+      "gt_start_median": 65.06
+    },
+    {
+      "question_id": "ikmPrpgWQ5M_q01",
+      "pred_start_median": 97.0,
+      "gt_start_median": 111.0
+    },
+    {
+      "question_id": "ikmPrpgWQ5M_q02",
+      "pred_start_median": 97.0,
+      "gt_start_median": 111.0
+    },
+    {
+      "question_id": "ikmPrpgWQ5M_q05",
+      "pred_start_median": 7.5,
+      "gt_start_median": 128.0
+    },
+    {
+      "question_id": "ikmPrpgWQ5M_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 109.5
+    },
+    {
+      "question_id": "ikmPrpgWQ5M_q08",
+      "pred_start_median": 137.0,
+      "gt_start_median": 141.5
+    },
+    {
+      "question_id": "ikmPrpgWQ5M_q09",
+      "pred_start_median": 97.0,
+      "gt_start_median": 105.5
+    },
+    {
+      "question_id": "ikmPrpgWQ5M_q10",
+      "pred_start_median": 47.0,
+      "gt_start_median": 91.5
+    },
+    {
+      "question_id": "ikmPrpgWQ5M_q11",
+      "pred_start_median": 158.0,
+      "gt_start_median": 161.0
+    },
+    {
+      "question_id": "o8HaMr9E8J8_q01",
+      "pred_start_median": 29.5,
+      "gt_start_median": 42.0
+    },
+    {
+      "question_id": "o8HaMr9E8J8_q02",
+      "pred_start_median": 79.5,
+      "gt_start_median": 95.0
+    },
+    {
+      "question_id": "o8HaMr9E8J8_q03",
+      "pred_start_median": 128.0,
+      "gt_start_median": 113.0
+    },
+    {
+      "question_id": "o8HaMr9E8J8_q04",
+      "pred_start_median": 77.0,
+      "gt_start_median": 88.0
+    },
+    {
+      "question_id": "o8HaMr9E8J8_q05",
+      "pred_start_median": 77.0,
+      "gt_start_median": 77.5
+    },
+    {
+      "question_id": "o8HaMr9E8J8_q07",
+      "pred_start_median": 7.5,
+      "gt_start_median": 77.5
+    },
+    {
+      "question_id": "PTUxCvCz8Bc_q01",
+      "pred_start_median": 32.0,
+      "gt_start_median": 41.0
+    },
+    {
+      "question_id": "PTUxCvCz8Bc_q02",
+      "pred_start_median": 149.0,
+      "gt_start_median": 195.0
+    },
+    {
+      "question_id": "PTUxCvCz8Bc_q03",
+      "pred_start_median": 39.0,
+      "gt_start_median": 73.0
+    },
+    {
+      "question_id": "PTUxCvCz8Bc_q04",
+      "pred_start_median": 139.0,
+      "gt_start_median": 175.0
+    },
+    {
+      "question_id": "PTUxCvCz8Bc_q08",
+      "pred_start_median": 100.0,
+      "gt_start_median": 175.0
+    },
+    {
+      "question_id": "PTUxCvCz8Bc_q09",
+      "pred_start_median": 82.0,
+      "gt_start_median": 104.0
+    },
+    {
+      "question_id": "PTUxCvCz8Bc_q10",
+      "pred_start_median": 7.5,
+      "gt_start_median": 88.5
+    },
+    {
+      "question_id": "v_SdsoRu3953g_q01",
+      "pred_start_median": 10.0,
+      "gt_start_median": 128.14
+    },
+    {
+      "question_id": "v_SdsoRu3953g_q02",
+      "pred_start_median": 20.0,
+      "gt_start_median": 91.46
+    },
+    {
+      "question_id": "v_SdsoRu3953g_q04",
+      "pred_start_median": 20.5,
+      "gt_start_median": 13.93
+    },
+    {
+      "question_id": "v_SdsoRu3953g_q09",
+      "pred_start_median": 7.5,
+      "gt_start_median": 128.14
+    },
+    {
+      "question_id": "v_JDg--pjY5gg_q01",
+      "pred_start_median": 10.0,
+      "gt_start_median": 20.5
+    },
+    {
+      "question_id": "v_JDg--pjY5gg_q03",
+      "pred_start_median": 2.5,
+      "gt_start_median": 43.22
+    },
+    {
+      "question_id": "v_JDg--pjY5gg_q05",
+      "pred_start_median": 80.5,
+      "gt_start_median": 78.86
+    },
+    {
+      "question_id": "v_JDg--pjY5gg_q07",
+      "pred_start_median": 0.0,
+      "gt_start_median": 43.22
+    },
+    {
+      "question_id": "v__15t4WTR19s_q02",
+      "pred_start_median": 49.0,
+      "gt_start_median": 14.3
+    },
+    {
+      "question_id": "v__15t4WTR19s_q03",
+      "pred_start_median": 40.5,
+      "gt_start_median": 77.44
+    },
+    {
+      "question_id": "v__15t4WTR19s_q05",
+      "pred_start_median": 34.0,
+      "gt_start_median": 129.87
+    },
+    {
+      "question_id": "v__15t4WTR19s_q06",
+      "pred_start_median": 138.0,
+      "gt_start_median": 201.35
+    },
+    {
+      "question_id": "v__15t4WTR19s_q07",
+      "pred_start_median": 97.0,
+      "gt_start_median": 129.87
+    },
+    {
+      "question_id": "v__15t4WTR19s_q08",
+      "pred_start_median": 69.0,
+      "gt_start_median": 129.87
+    },
+    {
+      "question_id": "v__15t4WTR19s_q09",
+      "pred_start_median": 7.5,
+      "gt_start_median": 98.3
+    },
+    {
+      "question_id": "v__15t4WTR19s_q10",
+      "pred_start_median": 69.0,
+      "gt_start_median": 129.87
+    },
+    {
+      "question_id": "v__15t4WTR19s_q11",
+      "pred_start_median": 28.0,
+      "gt_start_median": 98.3
+    },
+    {
+      "question_id": "v_PYNTOqgOXWc_q03",
+      "pred_start_median": 28.0,
+      "gt_start_median": 18.7
+    },
+    {
+      "question_id": "v_PYNTOqgOXWc_q08",
+      "pred_start_median": 7.5,
+      "gt_start_median": 35.48
+    },
+    {
+      "question_id": "v_PYNTOqgOXWc_q09",
+      "pred_start_median": 30.5,
+      "gt_start_median": 18.7
+    },
+    {
+      "question_id": "v_PYNTOqgOXWc_q10",
+      "pred_start_median": 50.5,
+      "gt_start_median": 18.7
+    },
+    {
+      "question_id": "v_qNxLTF4Q6yk_q02",
+      "pred_start_median": 2.5,
+      "gt_start_median": 77.47
+    },
+    {
+      "question_id": "v_qNxLTF4Q6yk_q03",
+      "pred_start_median": 2.5,
+      "gt_start_median": 154.95
+    },
+    {
+      "question_id": "v_qNxLTF4Q6yk_q06",
+      "pred_start_median": 7.5,
+      "gt_start_median": 26.4
+    }
+  ]
+}

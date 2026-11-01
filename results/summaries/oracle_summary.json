@@ -1,0 +1,16 @@
+{
+  "description": "Oracle check: predictions copied from ground truth; official metrics recomputed.",
+  "num_questions": 2889,
+  "eg_f1": {
+    "iou@0.3_sim@0.5": 0.9996538594669436,
+    "iou@0.3_sim@0.75": 0.9996538594669436,
+    "iou@0.5_sim@0.75": 0.9996538594669436
+  },
+  "iou_f1": {
+    "0.1": 0.9996538594669436,
+    "0.3": 0.9996538594669436,
+    "0.5": 0.9996538594669436,
+    "0.7": 0.9996538594669436
+  },
+  "source": "experiments/oracle/test_oracle_full_evidence_metrics.json"
+}

@@ -1,0 +1,14 @@
+# Optional dependencies for model inference and the official evidence metrics.
+# Platform-sensitive packages (torch, bitsandbytes) are documented, not pinned as a
+# single verified combination.
+transformers==4.51.3
+accelerate>=0.30
+sentence-transformers>=3.0
+qwen-vl-utils>=0.0.8
+bitsandbytes>=0.45
+
+# torch is intentionally NOT pinned here. Install a build that matches your driver, e.g.
+#   pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cu124
+# This project used torch 2.4.1+cu124 on Windows with an RTX 4060 Laptop (8 GB).
+# The official training stack (vllm, flash-attn, ray) is not supported on native Windows
+# and is not required for the experiments reported here.

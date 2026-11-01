@@ -1,0 +1,140 @@
+[
+  {
+    "path": "official_repo\\data\\videos\\Dpo1GQa3XMQ.mp4",
+    "opened": true,
+    "fps": 25.0,
+    "frames": 8818,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 352.72,
+    "first_frame_ok": true,
+    "first_frame_shape": [
+      360,
+      640,
+      3
+    ],
+    "video_id": "Dpo1GQa3XMQ",
+    "annotated": true,
+    "split": "train",
+    "duration": 352,
+    "data_source": "HiREST",
+    "questions": 5,
+    "duration_delta_sec": 0.72,
+    "size_bytes": 25852744
+  },
+  {
+    "path": "official_repo\\data\\videos\\JAFloXFat6k.mp4",
+    "opened": true,
+    "fps": 29.97,
+    "frames": 3219,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 107.41,
+    "first_frame_ok": true,
+    "first_frame_shape": [
+      360,
+      640,
+      3
+    ],
+    "video_id": "JAFloXFat6k",
+    "annotated": true,
+    "split": "test",
+    "duration": 107,
+    "data_source": "HiREST",
+    "questions": 10,
+    "duration_delta_sec": 0.41,
+    "size_bytes": 7610922
+  },
+  {
+    "path": "official_repo\\data\\videos\\QWowpe84rXw.mp4",
+    "opened": true,
+    "fps": 25.0,
+    "frames": 12004,
+    "width": 640,
+    "height": 360,
+    "duration_sec": 480.16,
+    "first_frame_ok": true,
+    "first_frame_shape": [
+      360,
+      640,
+      3
+    ],
+    "video_id": "QWowpe84rXw",
+    "annotated": true,
+    "split": "test",
+    "duration": 480,
+    "data_source": "HiREST",
+    "questions": 9,
+    "duration_delta_sec": 0.16,
+    "size_bytes": 20795148
+  },
+  {
+    "path": "official_repo\\data\\videos\\v_0Zg-7EgFiC8.mp4",
+    "opened": true,
+    "fps": 3.0,
+    "frames": 656,
+    "width": 398,
+    "height": 224,
+    "duration_sec": 218.67,
+    "first_frame_ok": true,
+    "first_frame_shape": [
+      224,
+      398,
+      3
+    ],
+    "video_id": "v_0Zg-7EgFiC8",
+    "annotated": true,
+    "split": "train",
+    "duration": 218.22,
+    "data_source": "ActivityNet Captions",
+    "questions": 6,
+    "duration_delta_sec": 0.45,
+    "size_bytes": 5311592
+  },
+  {
+    "path": "official_repo\\data\\videos\\v_fxbEiZrQQzM.mp4",
+    "opened": true,
+    "fps": 3.0,
+    "frames": 199,
+    "width": 398,
+    "height": 224,
+    "duration_sec": 66.33,
+    "first_frame_ok": true,
+    "first_frame_shape": [
+      224,
+      398,
+      3
+    ],
+    "video_id": "v_fxbEiZrQQzM",
+    "annotated": true,
+    "split": "test",
+    "duration": 65.78,
+    "data_source": "ActivityNet Captions",
+    "questions": 6,
+    "duration_delta_sec": 0.55,
+    "size_bytes": 1811318
+  },
+  {
+    "path": "official_repo\\data\\videos\\v_mbGpp_nDwI4.mp4",
+    "opened": true,
+    "fps": 3.0,
+    "frames": 296,
+    "width": 398,
+    "height": 224,
+    "duration_sec": 98.67,
+    "first_frame_ok": true,
+    "first_frame_shape": [
+      224,
+      398,
+      3
+    ],
+    "video_id": "v_mbGpp_nDwI4",
+    "annotated": true,
+    "split": "train",
+    "duration": 98.2,
+    "data_source": "ActivityNet Captions",
+    "questions": 4,
+    "duration_delta_sec": 0.47,
+    "size_bytes": 2598686
+  }
+]

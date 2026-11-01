@@ -1,0 +1,16 @@
+{
+  "model_path": "models/Qwen2.5-VL-3B-Instruct",
+  "is_paper_model": false,
+  "quantization": "bitsandbytes NF4 (4-bit), compute dtype bfloat16",
+  "device": "cuda",
+  "max_pixels": 100352,
+  "max_new_tokens": 256,
+  "decoding": "greedy (do_sample=False)",
+  "dataset": "official_repo/data/test.json",
+  "sample_filter": "questions whose frame directory exists (10 test videos, 92 questions)",
+  "seed": "n/a (greedy; no sampling)",
+  "max_frames": 32,
+  "frame_selection": "uniform",
+  "prompt_variant": "official",
+  "note": "matches the official 32-frame setting"
+}

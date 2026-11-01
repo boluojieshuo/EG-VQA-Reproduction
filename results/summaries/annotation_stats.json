@@ -1,0 +1,166 @@
+{
+  "train": {
+    "videos": 1731,
+    "video_duration_seconds": {
+      "mean": 157.07,
+      "median": 140.88
+    },
+    "videos_by_source": {
+      "YouCook2": 168,
+      "ActivityNet Captions": 1277,
+      "HiREST": 286
+    },
+    "by_type": {
+      "causal": {
+        "questions": 1994,
+        "evidence_spans": 4451,
+        "evidence_per_question": 2.232,
+        "evidence_span_seconds": {
+          "mean": 33.47,
+          "median": 23.92
+        },
+        "answer_words": {
+          "mean": 14.05,
+          "median": 14.0
+        },
+        "question_words": {
+          "mean": 9.59,
+          "median": 9.0
+        }
+      },
+      "counterfactual": {
+        "questions": 2547,
+        "evidence_spans": 5004,
+        "evidence_per_question": 1.965,
+        "evidence_span_seconds": {
+          "mean": 39.31,
+          "median": 27.84
+        },
+        "answer_words": {
+          "mean": 13.31,
+          "median": 13
+        },
+        "question_words": {
+          "mean": 8.44,
+          "median": 8
+        }
+      },
+      "descriptive": {
+        "questions": 2196,
+        "evidence_spans": 4665,
+        "evidence_per_question": 2.124,
+        "evidence_span_seconds": {
+          "mean": 35.79,
+          "median": 25.0
+        },
+        "answer_words": {
+          "mean": 12.44,
+          "median": 12.0
+        },
+        "question_words": {
+          "mean": 10.9,
+          "median": 11.0
+        }
+      },
+      "temporal": {
+        "questions": 2212,
+        "evidence_spans": 5889,
+        "evidence_per_question": 2.662,
+        "evidence_span_seconds": {
+          "mean": 34.72,
+          "median": 23.9
+        },
+        "answer_words": {
+          "mean": 13.67,
+          "median": 13.0
+        },
+        "question_words": {
+          "mean": 12.13,
+          "median": 12.0
+        }
+      }
+    }
+  },
+  "test": {
+    "videos": 336,
+    "video_duration_seconds": {
+      "mean": 177.42,
+      "median": 162.59
+    },
+    "videos_by_source": {
+      "HiREST": 72,
+      "ActivityNet Captions": 223,
+      "YouCook2": 41
+    },
+    "by_type": {
+      "causal": {
+        "questions": 748,
+        "evidence_spans": 1694,
+        "evidence_per_question": 2.265,
+        "evidence_span_seconds": {
+          "mean": 31.44,
+          "median": 23.04
+        },
+        "answer_words": {
+          "mean": 12.93,
+          "median": 13.0
+        },
+        "question_words": {
+          "mean": 7.57,
+          "median": 7.0
+        }
+      },
+      "counterfactual": {
+        "questions": 733,
+        "evidence_spans": 1498,
+        "evidence_per_question": 2.044,
+        "evidence_span_seconds": {
+          "mean": 30.74,
+          "median": 22.71
+        },
+        "answer_words": {
+          "mean": 13.0,
+          "median": 13
+        },
+        "question_words": {
+          "mean": 7.38,
+          "median": 7
+        }
+      },
+      "descriptive": {
+        "questions": 657,
+        "evidence_spans": 1473,
+        "evidence_per_question": 2.242,
+        "evidence_span_seconds": {
+          "mean": 29.54,
+          "median": 21.78
+        },
+        "answer_words": {
+          "mean": 12.81,
+          "median": 12
+        },
+        "question_words": {
+          "mean": 11.18,
+          "median": 11
+        }
+      },
+      "temporal": {
+        "questions": 751,
+        "evidence_spans": 2174,
+        "evidence_per_question": 2.895,
+        "evidence_span_seconds": {
+          "mean": 29.07,
+          "median": 21.27
+        },
+        "answer_words": {
+          "mean": 13.56,
+          "median": 13
+        },
+        "question_words": {
+          "mean": 12.06,
+          "median": 12
+        }
+      }
+    }
+  }
+}
